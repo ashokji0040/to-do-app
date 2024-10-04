@@ -1,0 +1,78 @@
+li {
+  margin-top: 10px;
+  width: 25rem;
+  height: 3rem;
+}
+body {
+  background-color: blue;
+  font-family: Arial, sans-serif;
+}
+.todo-class {
+  position: absolute;
+  top: 4rem;
+  left: 30%;
+  max-width: 600px;
+  height: 85%;
+  border-radius: 15px;
+  background: linear-gradient(rgb(117, 221, 204), rgb(197, 234, 115));
+}
+
+button:hover {
+  background-color: #bb0f0f;
+  cursor: pointer;
+}
+.todo-class h1 {
+  font-size: 3.5rem;
+  text-align: center;
+}
+.search {
+  margin: 0 0 0 4.5rem;
+}
+#serch-box {
+  border-radius: 10px;
+  width: 17rem;
+  height: 2rem;
+  font-size: large;
+  border-color: blue;
+}
+#add-task {
+  width: 6rem;
+  height: 2rem;
+  border-radius: 15px;
+  font-size: larger;
+  margin-left: 1rem;
+  background-color: blue;
+  color: white;
+}
+#add-task:hover {
+  background-color: rgb(118, 181, 24);
+  color: black;
+  cursor: pointer;
+   transform: scale(1.02);
+}
+li {
+  width: 25rem;
+  height: 3rem;
+  background-color: rgb(134, 230, 243);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 5px;
+  border-radius: 5px;
+  border: 2px solid rgb(88, 84, 84);
+}
+li i {
+  color: white;
+}
+li button {
+  border: none;
+  background-color: rgb(19, 26, 241);
+  width: 2rem;
+  height: 2.5rem;
+  margin: 2.5px 5px 0 0;
+  border-radius: 5px;
+}
+
+ul {
+  margin: 2rem;
+}
